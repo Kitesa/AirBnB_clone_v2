@@ -1,14 +1,13 @@
 #!/usr/bin/python3
 # -*- coding: utf-8 -*-
 """
-Created on Mon Aug 13 14:21:54 2020
-@author: Robinson Montes
+@author: KItesa Merga
 """
 from fabric.api import local, env
 from datetime import datetime
 
 env.user = 'ubuntu'
-env.hosts = ['52.91.133.152', '54.227.137.132']
+env.hosts = ['52.91.129.29', '54.227.137.132']
 
 
 def do_pack():
